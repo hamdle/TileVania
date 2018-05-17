@@ -591,6 +591,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 1, y: 7, z: 0}
+    second:
+      m_TileIndex: 46
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 2
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -685,6 +694,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c8513523c47f011468a7835ffd8dcb95, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0c7b61a7fa3e27f459c397fe79638706, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bf631ecbbb0e1f94f8602578549f4a3a, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: c97591b2e8a799e4bb31403b544f0dca, type: 3}
@@ -740,7 +751,7 @@ Tilemap:
     m_Data: {fileID: 21300038, guid: 7b00b6c7b8a6a8945a5bd97a5df590d7, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300028, guid: 7b00b6c7b8a6a8945a5bd97a5df590d7, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300012, guid: 7b00b6c7b8a6a8945a5bd97a5df590d7, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300024, guid: 7b00b6c7b8a6a8945a5bd97a5df590d7, type: 3}
@@ -779,7 +790,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300056, guid: 7b00b6c7b8a6a8945a5bd97a5df590d7, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 46
+  - m_RefCount: 47
     m_Data:
       e00: 1
       e01: 0
@@ -816,12 +827,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 50
+  - m_RefCount: 51
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -2, y: -11, z: 0}
-  m_Size: {x: 11, y: 14, z: 1}
+  m_Size: {x: 11, y: 19, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -934,3 +945,5 @@ Tilemap:
     m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
+  - serializedVersion: 1
+    m_DirtyIndex: 13
